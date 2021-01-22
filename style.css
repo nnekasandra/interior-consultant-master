@@ -9,15 +9,16 @@ body{
     color: #fff;
     background-color: #181719;
 }
-
 nav ul{
     float: right;
 }
 nav ul li{
     display: inline-block;
     margin-right: 50px;
-    position: relative;
-    top: -20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
 }
 nav ul li a{
     text-decoration: none;
@@ -29,9 +30,10 @@ nav ul li a{
 }
 header h2{
     border: 1px solid #FFFFFF;
-    width: 150px;
+    width: 200px;
     color: #fff;
     padding: 5px;
+    text-align: center;
 }
 img{
     max-width: 100%;
@@ -48,8 +50,9 @@ section .about{
     height: 145px;
     width: 410px;
     font-weight: 300;
-    line-height: 29px;
+    line-height: 32px;
     text-align: left;
+    font-size: 20px;
 }
 section p a{
     font-weight: 600;
@@ -57,6 +60,12 @@ section p a{
     line-height: 22px;
     text-decoration: none;
     color: #fff;
+}
+span{
+    font-style: 200px;;
+}
+.link:hover, footer p a:hover{
+    border-bottom: 4px solid#fff
 }
 section div img{
     width: 85px;
@@ -92,6 +101,9 @@ section div .title{
     position: absolute;
     bottom: -10px;
     right: 20px;
+}
+.interior-image{
+    width: 100%;
 }
 .name,.title{
     margin-top: 20px;
@@ -135,6 +147,9 @@ footer{
     .wrapper{
         grid-template-columns: 1fr;
     }
+    header{
+        display: block;
+    }
     .check-btn{
         display: block;
         position: relative;
@@ -150,6 +165,7 @@ footer{
         text-align: center;
         transition: all .5s;
         margin: 30px  0;
+        z-index: 2;
     }
     nav ul li{
         display: block;
