@@ -8,6 +8,7 @@ body{
     font-family: Montserrat;
     color: #fff;
     background-color: #181719;
+    width: 100%;
 }
 nav ul{
     float: right;
@@ -147,14 +148,14 @@ footer{
     .wrapper{
         grid-template-columns: 1fr;
     }
-    header{
+    /* header{
         display: block;
-    }
+    } */
     .check-btn{
         display: block;
         position: relative;
         top: -55px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
     nav ul{
         background-color: #181719;
