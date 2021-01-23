@@ -148,14 +148,14 @@ footer{
     .wrapper{
         grid-template-columns: 1fr;
     }
-    /* header{
-        display: block;
-    } */
+    header{
+        display: flex;
+        padding:  20px;
+        justify-content: space-between;
+        align-items: center;
+    }
     .check-btn{
         display: block;
-        position: relative;
-        top: -55px;
-        /* margin-left: 50px; */
     }
     nav ul{
         background-color: #181719;
@@ -180,6 +180,9 @@ footer{
     #check:checked ~ ul{
         left: 0;
 }
+    .interior-image{
+        width: 100%;
+    }
     footer p{
         text-align: center;
     }
