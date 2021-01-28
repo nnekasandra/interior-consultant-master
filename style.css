@@ -132,6 +132,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 50px 20px;
+    grid-gap: 30px;
 }
 .check-btn{
     font-size: 30px;
@@ -156,6 +157,7 @@ footer{
     }
     .check-btn{
         display: block;
+        margin-left: 180px;
     }
     nav ul{
         background-color: #181719;
@@ -181,9 +183,14 @@ footer{
         left: 0;
 }
     .interior-image{
-        width: 100%;
+        width: 80%;
     }
     footer p{
         text-align: center;
     }
 }
+/* @media only screen and (max-width: 400px){
+    .check-btn{
+        margin-left: 80px;
+    }
+} */
